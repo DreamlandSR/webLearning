@@ -57,3 +57,17 @@
 .carousel-inner .active {
   position: relative;
 }
+
+/* transisi */
+/* Efek animasi awal */
+.fade-in, .slide-in {
+  opacity: 0;
+  transform: translateY(20px); /* Efek geser sedikit ke bawah */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Ketika elemen terlihat di viewport */
+.fade-in.visible, .slide-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

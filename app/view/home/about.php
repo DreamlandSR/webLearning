@@ -1,8 +1,6 @@
-<main class="flex-shrink-0">
-            <!-- Navigation-->
-        
+<main class="flex-shrink-0 fade-in">
             <!-- Header-->
-            <header class="py-5">
+            <header class="py-5 slide-in">
                 <div class="container px-5">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xxl-6">
@@ -16,7 +14,7 @@
                 </div>
             </header>
             <!-- About section one-->
-            <section class="py-5 bg-light" id="scroll-target">
+            <section class="py-5 bg-light slide-in" id="scroll-target">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
@@ -28,7 +26,7 @@
                 </div>
             </section>
             <!-- About section two-->
-            <section class="py-5">
+            <section class="py-5 slide-in">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
@@ -40,7 +38,7 @@
                 </div>
             </section>
             <!-- Team members section-->
-            <section class="py-5 bg-light">
+            <section class="py-5 bg-light slide-in">
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="fw-bolder">Our team</h2>

@@ -1,7 +1,7 @@
 <main class="flex-shrink-0" >
             
             <!-- Header-->
-            <header class="bg-dark py-5">
+            <header class="bg-dark py-5 fade-in">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -16,17 +16,19 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- carousel -->
                         <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
                             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-interval="6000">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="<?=BASEURL; ?>/img/Frieren.jpeg" class="d-block w-100 h-auto rounded" alt="...">
+                                        <img src="<?=BASEURL; ?>/img/Frieren.jpeg" class="d-block w-100 h-auto rounded-4" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="<?=BASEURL; ?>/img/biru.jpeg" class="d-block w-100 h-auto rounded" alt="...">
+                                        <img src="<?=BASEURL; ?>/img/biru.jpeg" class="d-block w-100 h-auto rounded-4" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="<?=BASEURL; ?>/img/login.jpeg" class="d-block w-100 h-auto rounded" alt="... ">
+                                        <img src="<?=BASEURL; ?>/img/login.jpeg" class="d-block w-100 h-auto rounded-4" alt="... ">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -42,9 +44,10 @@
                     </div>
                 </div>
             </header>
+            
             <!-- Features section-->
             <section class="py-5" id="features">
-                <div class="container px-5 my-5">
+                <div class="container px-5 my-5 slide-in">
                     <div class="row">
                         <div class="col-lg-4 mb-5 mb-lg-0">
                             <h2 class="fw-bolder mb-0">A better way to start building.</h2>
@@ -85,7 +88,7 @@
                 </div>
             </section>
             <!-- Testimonial section-->
-            <div class="py-5 bg-light">
+            <div class="py-5 bg-light slide-in">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-10 col-xl-7">
@@ -106,7 +109,7 @@
             </div>
             <!-- Blog preview section-->
             <section class="py-5">
-                <div class="container px-5 my-5">
+                <div class="container px-5 my-5 slide-in">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
@@ -115,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row gx-5">
+                    <div class="row gx-5 slide-in">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
@@ -181,7 +184,7 @@
                         </div>
                     </div>
                     <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5 slide-in">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
                                 <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>

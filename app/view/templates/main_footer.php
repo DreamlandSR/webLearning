@@ -1,4 +1,4 @@
-<footer class="footer-01 py-5">
+<footer class="footer-01 py-5 slide-in">
   <div class="container">
     <div class="row">
       <!-- Kolom 1 -->

@@ -1,4 +1,4 @@
-<main class="flex-shrink-0">
+<main class="flex-shrink-0 fade-in">
             <!-- Page Content-->
             <section class="py-5">
                 <div class="container px-5 my-5">
@@ -46,8 +46,8 @@
                                 </div>
                             </div>
                             <!-- FAQ Accordion 2-->
-                            <h2 class="fw-bolder mb-3">Website Issues</h2>
-                            <div class="accordion mb-5 mb-xl-0" id="accordionExample2">
+                            <h2 class="fw-bolder mb-3 slide-in">Website Issues</h2>
+                            <div class="accordion mb-5 mb-xl-0 slide-in" id="accordionExample2">
                                 <div class="accordion-item">
                                     <h3 class="accordion-header" id="headingOne"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">Accordion Item #1</button></h3>
                                     <div class="accordion-collapse collapse show" id="collapseOne2" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">

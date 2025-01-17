@@ -1,6 +1,6 @@
 <?php
 
-define('BASEURL', 'http://localhost/webLearning/public');
+define('BASEURL', 'http://localhost/Web/public');
 
 //Database
 define('DB_HOST', 'localhost');
