@@ -7,8 +7,8 @@
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
                                 <h1 class="display-5 fw-bolder text-white mb-2 text-start">E - learning SMKN 7 Jember</h1>
-                                <p class="lead fw-normal text-white-50 mb-4 pr-4" style="text-align: justify;">
-                                Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!
+                                <p class="lead fw-normal text-white-50 mb-4 pr-5" style="text-align: justify; font-size: 20px;">
+                                platform e-learning terbaru untuk mendukung pengalaman belajar yang lebih modern, interaktif, dan fleksibel. Melalui aplikasi ini, siswa, guru, dan admin dapat berkolaborasi dalam satu sistem yang terintegrasi.
                                 </p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                     <a class="btn btn-primary btn-lg px-4 me-sm-3" href="login">Get Started</a>
@@ -50,36 +50,36 @@
                 <div class="container px-5 my-5 slide-in">
                     <div class="row">
                         <div class="col-lg-4 mb-5 mb-lg-0">
-                            <h2 class="fw-bolder mb-0">A better way to start building.</h2>
+                            <h2 class="fw-bolder mb-0">Fitur yang ada pada E - learning</h2>
                         </div>
                         <div class="col-lg-8">
                             <div class="row px-3">
                                 <div class="col-12 col-md-6 mb-5 h-100">
-                                    <div class="feature bg-primary text-white rounded-3 mb-3">
+                                    <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-collection"></i>
                                     </div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <h2 class="h5 fw-bold">Pengumpulan tugas</h2>
+                                    <p class="mb-0">Melakukan pengumpulan tugas yang diberikan oleh masing - masing guru</p>
                                 </div>
                                 <div class="col-12 col-md-6 mb-5 h-100">
-                                    <div class="feature bg-primary text-white rounded-3 mb-3">
+                                    <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-building"></i>
                                     </div>
-                                    <h2 class="h5">Featured title</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <h2 class="h5 fw-bold">Quiz</h2>
+                                    <p class="mb-0">Pengerjaan quiz (ujian) untuk mengukur kemampuan dari masing - masing siswa</p>
                                 </div>
                                 <div class="col-12 col-md-6 mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-primary text-white rounded-3 mb-3">
+                                    <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-toggles2"></i>
                                     </div>
-                                    <h2 class="h5">Featured title</h2>
+                                    <h2 class="h5 fw-bold">Materi Pembelajaran Interaktif</h2>
                                     <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                                 </div>
                                 <div class="col-12 col-md-6 h-100">
-                                    <div class="feature bg-primary text-white rounded-3 mb-3">
+                                    <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-toggles2"></i>
                                     </div>
-                                    <h2 class="h5">Featured title</h2>
+                                    <h2 class="h5 fw-bold">Jadwal dan Kalender Pembelajaran</h2>
                                     <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
                                 </div>
                             </div>
@@ -93,13 +93,13 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-10 col-xl-7">
                             <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
+                                <div class="fs-4 mb-4 fst-italic">"Pendidikan adalah senjata paling ampuh yang dapat kamu gunakan untuk mengubah <br> dunia."</div>
                                 <div class="d-flex align-items-center justify-content-center">
                                     <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                     <div class="fw-bold">
-                                        Tom Ato
+                                    Nelson Mandela
                                         <span class="fw-bold text-primary mx-1">/</span>
-                                        CEO, Pomodoro
+                                        1st President of South Africa
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                                <h2 class="fw-bolder">From our blog</h2>
+                                <h2 class="fw-bolder">Panduan</h2>
                                 <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
                             </div>
                         </div>
@@ -121,7 +121,7 @@
                     <div class="row gx-5 slide-in">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                <img class="card-img-top" style="max-height: 350px;" src="<?=BASEURL; ?>/img/background.jpeg" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Blog post title</h5></a>
@@ -142,7 +142,7 @@
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                                <img class="card-img-top" style="max-height: 350px;" src="<?=BASEURL; ?>/img/Frieren.jpeg" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                                <img class="card-img-top" style="max-height: 350px;" src="<?=BASEURL; ?>/img/Foto2.jpeg" alt="..." />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>

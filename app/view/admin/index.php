@@ -272,25 +272,25 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="<?=BASEURL ?>/admin/index">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="<?=BASEURL; ?>/admin/register">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Daftar Akun</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="<?=BASEURL; ?>/admin/profile">
               <i class="icon-head menu-icon"></i>
               <span class="menu-title">Profile</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="<?=BASEURL; ?>/admin/panduan">
               <i class="icon-layout menu-icon"></i>
               <span class="menu-title">Panduan</span>
             </a>
@@ -303,8 +303,11 @@
             </a>
             <div class="collapse" id="error">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?=BASEURL; ?>/admin/tabelMaster/guru"> Guru </a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?=BASEURL; ?>/admin/tabelMaster/siswa"> Siswa </a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?=BASEURL; ?>/admin/tabelMaster/guruMapel"> Guru mapel </a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?=BASEURL; ?>/admin/tabelMaster/masterMapel"> Master mapel </a></li>
+                <li class="nav-item"> <a class="nav-link" href="<?=BASEURL; ?>/admin/tabelMaster/masterKelas"> Master Kelas </a></li>
               </ul>
             </div>
           </li>
@@ -349,8 +352,8 @@
                         <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
                       </div>
                       <div class="ml-2">
-                        <h4 class="location font-weight-normal">Bangalore</h4>
-                        <h6 class="font-weight-normal">India</h6>
+                        <h4 class="location font-weight-normal">Jember</h4>
+                        <h6 class="font-weight-normal">Indonesia</h6>
                       </div>
                     </div>
                   </div>
@@ -363,17 +366,17 @@
                   <div class="card card-tale">
                     <div class="card-body">
                       <p class="mb-4">Total akun</p>
-                      <p class="fs-30 mb-2">4006</p>
-                      <p>10.00% (30 days)</p>
+                      <p class="fs-30 mb-3">1075</p>
+                      <p>Tahun 2024 - 2025</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 mb-4 stretch-card transparent">
                   <div class="card card-dark-blue">
                     <div class="card-body">
-                      <p class="mb-4">Total Bookings</p>
-                      <p class="fs-30 mb-2">61344</p>
-                      <p>22.00% (30 days)</p>
+                      <p class="mb-4">Akun Guru</p>
+                      <p class="fs-30 mb-3">41</p>
+                      <p>Tahun 2024 - 2025</p>
                     </div>
                   </div>
                 </div>
@@ -382,66 +385,25 @@
                 <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
                   <div class="card card-light-blue">
                     <div class="card-body">
-                      <p class="mb-4">Number of Meetings</p>
-                      <p class="fs-30 mb-2">34040</p>
-                      <p>2.00% (30 days)</p>
+                      <p class="mb-4">akun siswa</p>
+                      <p class="fs-30 mb-3">1025</p>
+                      <p>Tahun 2024 - 2025</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 stretch-card transparent">
                   <div class="card card-light-danger">
                     <div class="card-body">
-                      <p class="mb-4">Number of Clients</p>
-                      <p class="fs-30 mb-2">47033</p>
-                      <p>0.22% (30 days)</p>
+                      <p class="mb-4">Akun admin</p>
+                      <p class="fs-30 mb-3">9</p>
+                      <p>Tahun 2024 - 2025</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Order Details</p>
-                  <p class="font-weight-500">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p>
-                  <div class="d-flex flex-wrap mb-5">
-                    <div class="mr-5 mt-3">
-                      <p class="text-muted">Order value</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">12.3k</h3>
-                    </div>
-                    <div class="mr-5 mt-3">
-                      <p class="text-muted">Orders</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">14k</h3>
-                    </div>
-                    <div class="mr-5 mt-3">
-                      <p class="text-muted">Users</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">71.56%</h3>
-                    </div>
-                    <div class="mt-3">
-                      <p class="text-muted">Downloads</p>
-                      <h3 class="text-primary fs-30 font-weight-medium">34040</h3>
-                    </div> 
-                  </div>
-                  <canvas id="order-chart"></canvas>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                 <div class="d-flex justify-content-between">
-                  <p class="card-title">Sales Report</p>
-                  <a href="#" class="text-info">View all</a>
-                 </div>
-                  <p class="font-weight-500">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p>
-                  <div id="sales-legend" class="chartjs-legend mt-4 mb-2"></div>
-                  <canvas id="sales-chart"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card position-relative">
@@ -464,7 +426,7 @@
                                 <div class="table-responsive mb-3 mb-md-0 mt-3">
                                   <table class="table table-borderless report-table">
                                     <tr>
-                                      <td class="text-muted">Illinois</td>
+                                      <td class="text-muted">Akun siswa</td>
                                       <td class="w-100 px-0">
                                         <div class="progress progress-md mx-4">
                                           <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -473,7 +435,7 @@
                                       <td><h5 class="font-weight-bold mb-0">713</h5></td>
                                     </tr>
                                     <tr>
-                                      <td class="text-muted">Washington</td>
+                                      <td class="text-muted">Akun guru</td>
                                       <td class="w-100 px-0">
                                         <div class="progress progress-md mx-4">
                                           <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
@@ -482,7 +444,7 @@
                                       <td><h5 class="font-weight-bold mb-0">583</h5></td>
                                     </tr>
                                     <tr>
-                                      <td class="text-muted">Mississippi</td>
+                                      <td class="text-muted">Akun murid</td>
                                       <td class="w-100 px-0">
                                         <div class="progress progress-md mx-4">
                                           <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
@@ -491,7 +453,7 @@
                                       <td><h5 class="font-weight-bold mb-0">924</h5></td>
                                     </tr>
                                     <tr>
-                                      <td class="text-muted">California</td>
+                                      <td class="text-muted">Kelas</td>
                                       <td class="w-100 px-0">
                                         <div class="progress progress-md mx-4">
                                           <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
@@ -500,13 +462,13 @@
                                       <td><h5 class="font-weight-bold mb-0">664</h5></td>
                                     </tr>
                                     <tr>
-                                      <td class="text-muted">Maryland</td>
+                                      <td class="text-muted">Mata pelajaran</td>
                                       <td class="w-100 px-0">
                                         <div class="progress progress-md mx-4">
                                           <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                       </td>
-                                      <td><h5 class="font-weight-bold mb-0">560</h5></td>
+                                      <td><h5 class="font-weight-bold mb-0">25</h5></td>
                                     </tr>
                                     <tr>
                                       <td class="text-muted">Alaska</td>
