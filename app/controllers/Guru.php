@@ -7,4 +7,5 @@ class Guru extends controller {
         $this->view('templates/footer', $data);
         $this->view('guru/index', $data);
     }
+    
 }

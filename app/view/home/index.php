@@ -59,28 +59,28 @@
                                         <i class="bi bi-collection"></i>
                                     </div>
                                     <h2 class="h5 fw-bold">Pengumpulan tugas</h2>
-                                    <p class="mb-0">Melakukan pengumpulan tugas yang diberikan oleh masing - masing guru</p>
+                                    <p class="mb-0">Melakukan pengumpulan tugas yang diberikan oleh masing - masing guru.</p>
                                 </div>
                                 <div class="col-12 col-md-6 mb-5 h-100">
                                     <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-building"></i>
                                     </div>
                                     <h2 class="h5 fw-bold">Quiz</h2>
-                                    <p class="mb-0">Pengerjaan quiz (ujian) untuk mengukur kemampuan dari masing - masing siswa</p>
+                                    <p class="mb-0">Pengerjaan quiz (ujian) untuk mengukur kemampuan dari masing - masing siswa.</p>
                                 </div>
                                 <div class="col-12 col-md-6 mb-5 mb-md-0 h-100">
                                     <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-toggles2"></i>
                                     </div>
                                     <h2 class="h5 fw-bold">Materi Pembelajaran Interaktif</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p class="mb-0">Dengan adanya E - learning ini memudahkan pemberian materi untuk siswa.</p>
                                 </div>
                                 <div class="col-12 col-md-6 h-100">
                                     <div class="feature bg-primary text-white rounded-3 mb-4">
                                         <i class="bi bi-toggles2"></i>
                                     </div>
                                     <h2 class="h5 fw-bold">Jadwal dan Kalender Pembelajaran</h2>
-                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.</p>
+                                    <p class="mb-0">Adanya jadwal memudahkan siswa untuk mengetahui pembelajaran setiap harinya.</p>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                             <div class="text-center">
                                 <div class="fs-4 mb-4 fst-italic">"Pendidikan adalah senjata paling ampuh yang dapat kamu gunakan untuk mengubah <br> dunia."</div>
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <img class="rounded-circle me-3" style="width: 40px; height:40px; object-fit:cover;" src="<?=BASEURL; ?>/img/nelson.jpg" alt="Nelson Mandela" />
                                     <div class="fw-bold">
                                     Nelson Mandela
                                         <span class="fw-bold text-primary mx-1">/</span>
@@ -114,18 +114,18 @@
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
                                 <h2 class="fw-bolder">Panduan</h2>
-                                <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+                                <p class="lead fw-normal text-muted mb-5">Melalui panduan berikut baik Admin, Siswa, dan guru mampu memahami petunjuk tentang penggunaan Aplikasi pembelajaran ini</p>
                             </div>
                         </div>
                     </div>
                     <div class="row gx-5 slide-in">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" style="max-height: 350px;" src="<?=BASEURL; ?>/img/background.jpeg" alt="..." />
+                                <img class="card-img-top" style="height: 185px; object-fit: cover;" src="<?=BASEURL; ?>/img/background.jpeg" alt="..." />
                                 <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Blog post title</h5></a>
-                                    <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-3">News</div>
+                                    <h5 class="card-title mb-2 fw-bold">Admin</h5></a>
+                                    <p class="card-text mb-0">Panduan penggunaan untuk admin mulai dari cara menambahkan akun, kelas, menambahkan mata pelajaran, melihat jumlah data akun. <br><a href="<?=BASEURL; ?>/home/guide">lihat selengkapnya</a></p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
@@ -142,11 +142,11 @@
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" style="max-height: 350px;" src="<?=BASEURL; ?>/img/Frieren.jpeg" alt="..." />
-                                <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
-                                    <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <img class="card-img-top" style="height: 185px; object-fit: cover;" src="<?=BASEURL; ?>/img/Frieren.jpeg" alt="..." />
+                                <div class="card-body p-4" style="min-height: 150px;">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-3">Media</div>
+                                    <h5 class="card-title mb-2 fw-bold">Guru</h5>
+                                    <p class="card-text mb-0">Panduan penggunaan untuk guru mulai dari memberikan tugas, materi, ujian serta tugas guru juga bisa memberikan komentar. <br> <a href="<?=BASEURL; ?>/home/guide">lihat selengkapnya</a></p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
@@ -163,11 +163,11 @@
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" style="max-height: 350px;" src="<?=BASEURL; ?>/img/Foto2.jpeg" alt="..." />
+                                <img class="card-img-top" style="height: 185px; object-fit: cover;" src="<?=BASEURL; ?>/img/Foto2.jpeg" alt="..." />
                                 <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
-                                    <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-3">News</div>
+                                    <h5 class="card-title mb-2 fw-bold">Siswa</h5>
+                                    <p class="card-text mb-0">Panduan penggunaan siswa untuk mengetahui bagaimana cara mengumpulkan tugas, melakukan ujian melaporkan keluhan. <br> <a href="<?=BASEURL; ?>/home/guide">lihat selengkapnya</a></p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
@@ -184,7 +184,7 @@
                         </div>
                     </div>
                     <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5 slide-in">
+                    <!-- <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5 slide-in">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
                                 <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
@@ -198,7 +198,7 @@
                                 <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                             </div>
                         </div>
-                    </aside>
+                    </aside> -->
                 </div>
             </section>
         </main>

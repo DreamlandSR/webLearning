@@ -3,8 +3,8 @@
     <div class="row">
       <!-- Kolom 1 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4">
-        <h2 class="footer-heading">Colorlib</h2>
-        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        <h2 class="footer-heading">About me</h2>
+        <p>SMKN 7 Jember merupakan sekolah yang berfokus pada keahlian otomotif, teknik komputer jaringan, rekayasa perangkat lunak, dan lain- lain.</p>
         <ul class="ftco-footer-social p-0 d-flex">
           <li class="ftco-animate mr-3"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ion-logo-twitter"></span></a></li>
           <li class="ftco-animate mr-3"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="ion-logo-facebook"></span></a></li>
@@ -33,8 +33,8 @@
         <ul class="list-unstyled">
           <li><a href="#" class="py-2 d-block">Home</a></li>
           <li><a href="#" class="py-2 d-block">About</a></li>
-          <li><a href="#" class="py-2 d-block">Services</a></li>
-          <li><a href="#" class="py-2 d-block">Works</a></li>
+          <li><a href="#" class="py-2 d-block">Features</a></li>
+          <li><a href="#" class="py-2 d-block">Guide</a></li>
         </ul>
       </div>
 
